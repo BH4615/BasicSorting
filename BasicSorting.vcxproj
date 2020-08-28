@@ -18,6 +18,27 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bubblesort.h" />
+    <ClInclude Include="include\heapsort.h" />
+    <ClInclude Include="include\insertionsort.h" />
+    <ClInclude Include="include\mergesort.h" />
+    <ClInclude Include="include\quicksort.h" />
+    <ClInclude Include="include\selectionsort.h" />
+    <ClInclude Include="include\shellsort.h" />
+    <ClInclude Include="include\sort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\bubblesort.cpp" />
+    <ClCompile Include="src\heapsort.cpp" />
+    <ClCompile Include="src\insertionsort.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mergesort.cpp" />
+    <ClCompile Include="src\quicksort.cpp" />
+    <ClCompile Include="src\selectionsort.cpp" />
+    <ClCompile Include="src\shellsort.cpp" />
+    <ClCompile Include="src\sort.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{D2DC0E50-B544-459E-BC07-4B359BB7CB1C}</ProjectGuid>
@@ -87,7 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -100,7 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -115,7 +136,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -132,7 +153,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\angle\source\repos\BasicSorting\BasicSorting\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,27 +162,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="bubblesort.h" />
-    <ClInclude Include="heapsort.h" />
-    <ClInclude Include="insertionsort.h" />
-    <ClInclude Include="mergesort.h" />
-    <ClInclude Include="quicksort.h" />
-    <ClInclude Include="selectionsort.h" />
-    <ClInclude Include="shellsort.h" />
-    <ClInclude Include="sort.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="bubblesort.cpp" />
-    <ClCompile Include="heapsort.cpp" />
-    <ClCompile Include="insertionsort.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="mergesort.cpp" />
-    <ClCompile Include="quicksort.cpp" />
-    <ClCompile Include="selectionsort.cpp" />
-    <ClCompile Include="shellsort.cpp" />
-    <ClCompile Include="sort.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

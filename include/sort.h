@@ -14,7 +14,7 @@ class Sort
 public:
 	
 	Sort() ;						   // default constructor
-	Sort(const std::initializer_list<T>& l);  // size 는 ㅣ.size();
+	Sort(std::initializer_list<T> l);  // size 는 ㅣ.size();
 	// 소멸자는 virtual로 선언해주어야 하고, 절대 exception을 Throw 하지 않아야 한다. 암시적으로 noexcept이다.
 	virtual ~Sort();
 
@@ -27,7 +27,7 @@ public:
 	virtual MaxSorting() = 0;
 	virtual MinSorting() = 0;
 	void SetDataList();
-	void SetDataList(const std::initializer_list<T>& l);
+	void SetDataList(std::initializer_list<T> l);
 	void EraseDataList();
 	
 private:

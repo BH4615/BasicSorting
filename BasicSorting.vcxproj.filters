@@ -5,67 +5,66 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{b448e794-2801-4da4-9062-27daef6a44c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="sort.h">
+    <ClInclude Include="include\bubblesort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="bubblesort.h">
+    <ClInclude Include="include\heapsort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="selectionsort.h">
+    <ClInclude Include="include\insertionsort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="insertionsort.h">
+    <ClInclude Include="include\mergesort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="shellsort.h">
+    <ClInclude Include="include\quicksort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="heapsort.h">
+    <ClInclude Include="include\selectionsort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="mergesort.h">
+    <ClInclude Include="include\shellsort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="quicksort.h">
+    <ClInclude Include="include\sort.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\bubblesort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="sort.cpp">
+    <ClCompile Include="src\heapsort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="bubblesort.cpp">
+    <ClCompile Include="src\insertionsort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="selectionsort.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="insertionsort.cpp">
+    <ClCompile Include="src\mergesort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="shellsort.cpp">
+    <ClCompile Include="src\quicksort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="heapsort.cpp">
+    <ClCompile Include="src\selectionsort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="mergesort.cpp">
+    <ClCompile Include="src\shellsort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="quicksort.cpp">
+    <ClCompile Include="src\sort.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
